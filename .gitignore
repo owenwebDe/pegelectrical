@@ -1,0 +1,16 @@
+# Whitelist: only what the published site actually loads.
+/*
+!/.gitignore
+!/index.html
+!/credits.html
+!/README.md
+!/netlify.toml
+!/vercel.json
+!/assets/
+/assets/*
+!/assets/app.css
+!/assets/app.js
+!/assets/glass.js
+!/assets/hero3d.js
+!/assets/favicon.svg
+!/assets/img/

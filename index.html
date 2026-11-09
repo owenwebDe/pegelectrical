@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en" data-type="service" data-radius="square" data-buttons="step" data-motion="on">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Peg Electrical &amp; General Service &mdash; wiring for homes, offices and plants in Port Harcourt</title>
+<meta name="description" content="Peg Electrical &amp; General Service wires homes, offices and plants across Port Harcourt and Rivers State. Domestic, commercial and industrial installations, tested before handover. 10 Alcon Rd, Woji.">
+<!-- People are hired here, so this is a service page, and an electrician
+     in Port Harcourt is not a tech page: photographs and type, no shaders. -->
+<meta name="page-type" content="service">
+<meta name="site-kind" content="other">
+<meta name="theme-color" content="#070C16">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Geist:wght@300..700&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js" } }
+</script>
+</head>
+
+<body>
+<script>document.body.classList.add('is-loading');setTimeout(function(){document.body.classList.remove('is-loading')},6000);</script>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="loader" aria-hidden="true">
+  <div class="loader__num" data-count>0</div>
+  <div class="loader__word">Peg Electrical &middot; Woji, Port Harcourt</div>
+  <div class="loader__bar"></div>
+</div>
+
+<div class="progress" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#main" aria-label="Peg Electrical home">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true">
+        <circle cx="16" cy="16" r="12" fill="none" stroke="#4C7DC4" stroke-width="2.6"/>
+        <path d="M17.6 7.4 9.6 17.6h4.9l-1.2 7.4 8-10.2h-4.9l1.2-7.4Z" fill="#FF7A3D"/>
+      </svg>
+      <span class="brand__name">Peg<span class="brand__sub">&nbsp;Electrical</span></span>
+    </a>
+
+    <nav class="nav__links" aria-label="Sections">
+      <a href="#services">What we do</a>
+      <a href="#materials">What we install</a>
+      <a href="#work">The work</a>
+      <a href="#quote">Get a quote</a>
+    </nav>
+
+    <div class="nav__right">
+      <a class="btn btn--primary btn--sm" data-magnetic href="#quote">
+        <span>Get a quote
+          <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </span>
+      </a>
+      <button class="burger" aria-label="Open menu" aria-expanded="false"><i></i></button>
+    </div>
+  </div>
+</header>
+
+<div class="sheet" aria-hidden="true">
+  <a href="#services">What we do</a>
+  <a href="#materials">What we install</a>
+  <a href="#work">The work</a>
+  <a href="#process">How it works</a>
+  <a href="#quote">Get a quote</a>
+  <div class="sheet__foot">
+    <span>10 Alcon Rd, Woji, Port Harcourt, Rivers</span>
+    <span>0703 059 7173</span>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <canvas id="gl" aria-hidden="true"></canvas>
+    <div class="hero__glow" aria-hidden="true"></div>
+
+    <div class="hero__scrim" aria-hidden="true"></div>
+
+    <div class="wrap">
+      <div class="hero__grid">
+        <h1 class="display">
+          <span class="reveal-line"><span>Wiring for homes,</span></span>
+          <span class="reveal-line"><span>offices &amp; <em>plants</em></span></span>
+        </h1>
+
+        <div class="hero__side">
+          <p class="hero__lead" data-fade>
+            Wired, tested and handed over &mdash; domestic, commercial and
+            industrial. Woji, Port Harcourt and across Rivers State.
+          </p>
+
+          <div class="btn-row" data-fade>
+            <a class="btn btn--primary" data-magnetic href="#quote">
+              <span>Get a quote
+                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </span>
+            </a>
+            <a class="btn btn--ghost" data-magnetic href="tel:+2347030597173"><span>Call 0703 059 7173</span></a>
+          </div>
+
+          <div class="hero__facts" data-fade>
+            <div class="hero__fact"><b>03</b><span>Sectors we wire</span></div>
+            <div class="hero__fact"><b>Woji</b><span>Port Harcourt, Rivers</span></div>
+            <div class="hero__fact"><b>5.0</b><span>Rated on Google</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__cue" aria-hidden="true"><i></i> Scroll</div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true" data-marquee>
+    <div class="marquee__row">
+      <span>House wiring</span><span>Rewiring</span><span>Distribution boards</span><span>Office fit&#8209;out</span>
+      <span>Cable tray</span><span>Industrial panels</span><span>Load testing</span><span>Fault finding</span><span>Earthing</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow" data-fade>What we do</p>
+          <h2 class="display">
+            <span class="reveal-line"><span>Three scales,</span></span>
+            <span class="reveal-line"><span>one standard</span></span>
+          </h2>
+        </div>
+        <p class="lead" data-fade>
+          A bungalow and a factory are the same job at different sizes: load worked out,
+          cable sized for it, protection that matches, and a test before we hand over.
+        </p>
+      </div>
+    </div>
+
+    <div class="rail" data-rail>
+      <div class="rail__track" data-rail-track>
+        <article class="scard scard--flat">
+          <div class="scard__in">
+            <div class="scard__ico glass">
+              <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 12 3l9 8"/><path d="M5.5 9.5V21h13V9.5"/><path d="M10 21v-6h4v6"/></svg>
+            </div>
+            <div class="scard__txt">
+              <span class="scard__n">01</span>
+              <h3>Domestic wiring</h3>
+              <p>New builds and rewires &mdash; circuits, boards, sockets and lighting, with the old wiring taken out properly rather than buried.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="scard scard--flat">
+          <div class="scard__in">
+            <div class="scard__ico glass">
+              <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V5.5L13 3v18"/><path d="M13 9.5h6V21"/><path d="M8 8h2M8 12h2M8 16h2M16 13h1M16 17h1"/></svg>
+            </div>
+            <div class="scard__txt">
+              <span class="scard__n">02</span>
+              <h3>Commercial installations</h3>
+              <p>Offices, shops and plazas. Risers, cable tray, lighting and power to every desk &mdash; sequenced so the floor can keep trading.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="scard scard--flat">
+          <div class="scard__in">
+            <div class="scard__ico glass">
+              <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M4 21V10l5 3.5V10l5 3.5V6l6 4v11"/><path d="M8 17h1M13 17h1M18 17h1"/></svg>
+            </div>
+            <div class="scard__txt">
+              <span class="scard__n">03</span>
+              <h3>Industrial wiring</h3>
+              <p>Factories and workshops: three-phase distribution, motor circuits, control panels and the protection that keeps them alive.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="scard scard--flat">
+          <div class="scard__in">
+            <div class="scard__ico glass">
+              <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 3.5h12l3.5 3.5v13H4.5Z"/><path d="M16 3.5V7h3.5"/><path d="M8 12h8M8 16h5"/></svg>
+            </div>
+            <div class="scard__txt">
+              <span class="scard__n">04</span>
+              <h3>Consultancy</h3>
+              <p>Load calculations, drawings and a second opinion &mdash; before you commit to a design, a contractor or a generator you may not need.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="wrap rail__foot">
+      <div class="rail__ctrls">
+        <button class="rail__btn" type="button" data-rail-prev aria-label="Previous services">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="rail__btn" type="button" data-rail-next aria-label="Next services">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+      <p class="rail__hint">Four lines &mdash; drag to browse, or let it run</p>
+    </div>
+  </section>
+
+  <!-- MATERIALS -->
+  <section class="section section--night supply" id="materials">
+    <canvas id="grid-canvas" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow" data-fade>What we install</p>
+          <h2 class="display">
+            <span class="reveal-line"><span>Every part of</span></span>
+            <span class="reveal-line"><span>the installation</span></span>
+          </h2>
+        </div>
+        <p class="lead" data-fade>
+          From the cable in the wall to the board on it. Each part is chosen for
+          the load the circuit actually carries, which is the difference between an
+          installation that lasts and one that trips all year.
+        </p>
+      </div>
+
+      <ul class="supply__grid">
+        <li class="supply__item supply__item--wide" data-fade>
+          <span class="supply__n">01</span>
+          <h3>Cable and conduit</h3>
+          <p>Single core, flex and armoured, sized for the run rather than for what is on the shelf, with the conduit, trunking and tray to carry it.</p>
+        </li>
+        <li class="supply__item" data-fade>
+          <span class="supply__n">02</span>
+          <h3>Breakers and MCBs</h3>
+          <p>MCBs, RCDs and the main switchgear, rated for the circuit rather than for the shelf.</p>
+        </li>
+        <li class="supply__item" data-fade>
+          <span class="supply__n">03</span>
+          <h3>Distribution boards</h3>
+          <p>Boards and enclosures from two ways to a full industrial panel.</p>
+        </li>
+        <li class="supply__item" data-fade>
+          <span class="supply__n">04</span>
+          <h3>Lighting and fittings</h3>
+          <p>Fittings, drivers and lamps for a room, a floor or a yard.</p>
+        </li>
+        <li class="supply__item" data-fade>
+          <span class="supply__n">05</span>
+          <h3>Switches and sockets</h3>
+          <p>Accessories, back boxes and the plates to finish them.</p>
+        </li>
+        <li class="supply__item supply__item--wide" data-fade>
+          <span class="supply__n">06</span>
+          <h3>Earthing and protection</h3>
+          <p>Rods, clamps, bonding and surge protection &mdash; the part of the installation nobody asks for until something is damaged.</p>
+        </li>
+      </ul>
+
+      <p class="quote__note" data-fade style="margin-top:26px">
+        Every job is quoted for the work it needs, so nothing is priced here.
+        Send us the job on WhatsApp and we will come and look at it.
+      </p>
+    </div>
+  </section>
+
+  <!-- THE WORK -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow" data-fade>The work</p>
+          <h2 class="display">
+            <span class="reveal-line"><span>Boards, risers</span></span>
+            <span class="reveal-line"><span>and everything behind</span></span>
+          </h2>
+        </div>
+        <p class="lead" data-fade>
+          The part of a building you only notice when it fails. Send us
+          photographs of yours on WhatsApp and we will tell you what it needs.
+        </p>
+      </div>
+
+      <div class="gal">
+        <figure class="g1" data-fade>
+          <div class="clipwrap" data-clip><img src="assets/img/board2.webp" alt="A finished distribution board with its breakers labelled" width="1100" height="825" loading="lazy" data-parallax></div>
+          <figcaption class="gal__cap"><b>Distribution boards</b><span>Labelled and tested</span></figcaption>
+        </figure>
+
+        <figure class="g2" data-fade>
+          <div class="clipwrap" data-clip><img src="assets/img/cable-hand.webp" alt="Electrician terminating cable by hand" width="800" height="1066" loading="lazy" data-parallax></div>
+          <figcaption class="gal__cap"><b>Terminations</b><span>Cable, conduit and tray</span></figcaption>
+        </figure>
+
+        <figure class="g3" data-fade>
+          <div class="clipwrap" data-clip><img src="assets/img/clamp-meter.webp" alt="Clamp meter reading a live circuit" width="900" height="900" loading="lazy" data-parallax></div>
+          <figcaption class="gal__cap"><b>Testing</b><span>Before anything is signed off</span></figcaption>
+        </figure>
+
+        <figure class="g4" data-fade>
+          <div class="clipwrap" data-clip><img src="assets/img/tools.webp" alt="An electrician tool kit laid out" width="1100" height="688" loading="lazy" data-parallax></div>
+          <figcaption class="gal__cap"><b>On site</b><span>Our own tools and our own people</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section proc proc--plain" id="process">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow" data-fade>How it works</p>
+          <h2 class="display">
+            <span class="reveal-line"><span>Quote, deposit,</span></span>
+            <span class="reveal-line"><span>test, <em>handover</em></span></span>
+          </h2>
+        </div>
+        <p class="lead" data-fade>
+          You know the price before anything starts, and you pay the balance after
+          the installation has been tested &mdash; not before.
+        </p>
+      </div>
+
+      <div class="proc__layout">
+        <div class="proc__steps">
+          <article class="step" data-step>
+            <div class="step__n">01</div>
+            <div>
+              <h3>Send the job</h3>
+              <p>WhatsApp us photographs of the board, the room or the site &mdash; or the drawings if you have them. Use the form below and it arrives as one message.</p>
+            </div>
+            <div class="step__bar"><i></i></div>
+          </article>
+
+          <article class="step" data-step>
+            <div class="step__n">02</div>
+            <div>
+              <h3>Site visit and written quote</h3>
+              <p>We come and measure the load. You get an itemised quote &mdash; labour, materials and a timeline &mdash; in writing, before you commit.</p>
+            </div>
+            <div class="step__bar"><i></i></div>
+          </article>
+
+          <article class="step" data-step>
+            <div class="step__n">03</div>
+            <div>
+              <h3>Deposit, then we book your dates</h3>
+              <p>Agree the quote and pay the deposit by transfer or card. That is what reserves the crew; materials are ordered against your list the same week.</p>
+            </div>
+            <div class="step__bar"><i></i></div>
+          </article>
+
+          <article class="step" data-step>
+            <div class="step__n">04</div>
+            <div>
+              <h3>Test, hand over, pay the balance</h3>
+              <p>Every circuit is tested and the board is labelled before we leave. The balance falls due on handover, and you get a record of what was installed.</p>
+            </div>
+            <div class="step__bar"><i></i></div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REFERRAL BAND -->
+  <section class="band band--plain" id="about">
+    <div class="band__veil" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-fade>Why people call us</p>
+      <h2 class="display" style="max-width:20ch">
+        <span class="reveal-line"><span>Tested before</span></span>
+        <span class="reveal-line"><span>we <em>hand over</em></span></span>
+      </h2>
+      <p class="lead" data-fade style="max-width:56ch">
+        An electrical installation is judged on the day it fails, not the day it
+        is finished. So every circuit is tested and the board is labelled before
+        we hand the job over, and you see the result. Peg Electrical holds a 5.0
+        rating on Google &mdash; small, and worth keeping.
+      </p>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="section quote" id="quote">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow" data-fade>Get a quote</p>
+          <h2 class="display">
+            <span class="reveal-line"><span>Tell us the job</span></span>
+          </h2>
+        </div>
+        <p class="lead" data-fade>
+          Five fields. It arrives on our WhatsApp as one message with everything
+          we need to price it, and you keep a copy in your own chat.
+        </p>
+      </div>
+
+      <form class="quote__form" data-quote data-wa="2347030597173">
+        <label class="field">
+          <span>What kind of job</span>
+          <select name="job">
+            <option>Domestic &mdash; wiring or rewiring</option>
+            <option>Commercial &mdash; office, shop or plaza</option>
+            <option>Industrial &mdash; factory or workshop</option>
+            <option>Consultancy &mdash; load, drawings, second opinion</option>
+            <option>Materials only</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Where</span>
+          <input type="text" name="where" placeholder="Area of Port Harcourt" autocomplete="address-level2">
+        </label>
+
+        <label class="field">
+          <span>Rough size</span>
+          <select name="size">
+            <option>One or two rooms</option>
+            <option>A three to five bedroom house</option>
+            <option>A floor or a suite</option>
+            <option>A whole building</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Your name</span>
+          <input type="text" name="name" placeholder="Who are we speaking to" autocomplete="name">
+        </label>
+
+        <label class="field field--full">
+          <span>Anything else</span>
+          <textarea name="detail" placeholder="What is happening, what you want done, when you need it. If you have drawings or photographs, say so and send them in the chat."></textarea>
+        </label>
+
+        <div class="quote__send">
+          <button class="btn btn--primary" type="submit" data-magnetic>
+            <span>Send on WhatsApp
+              <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </button>
+          <a class="btn btn--ghost" data-magnetic href="tel:+2347030597173"><span>Or call 0703 059 7173</span></a>
+          <p class="quote__note">Nothing is sent anywhere else. The button opens WhatsApp with the message already written.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- CLOSE -->
+  <section class="section close" id="contact">
+    <div class="wrap">
+      <h2 class="close__h">
+        <span class="reveal-line"><span>10 Alcon Rd,</span></span>
+        <span class="reveal-line"><span>Woji, <em>Port Harcourt</em></span></span>
+      </h2>
+
+      <div class="close__cols">
+        <div class="close__col" data-fade>
+          <h4>Office</h4>
+          <p>10 Alcon Rd, Woji,<br>Port Harcourt 500102,<br>Rivers, Nigeria</p>
+        </div>
+        <div class="close__col" data-fade>
+          <h4>Talk to us</h4>
+          <p><a href="https://wa.me/2347030597173" target="_blank" rel="noopener">WhatsApp 0703 059 7173</a><br>
+             <a href="tel:+2347030597173">Call 0703 059 7173</a></p>
+        </div>
+        <div class="close__col" data-fade>
+          <h4>What to send</h4>
+          <p>A photograph of the board or the room, the drawings if you have them, and the district. That is enough to start.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>&copy; <span data-year>2026</span> Peg Electrical &amp; General Service &middot; Woji, Port Harcourt.</span>
+    <div class="foot__links">
+      <a href="credits.html">Photograph credits</a>
+      <a href="https://wa.me/2347030597173" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<nav class="actionbar" aria-label="Contact">
+  <a class="btn btn--primary" href="#quote"><span>Get a quote</span></a>
+</nav>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+<script defer src="assets/glass.js"></script>
+<script defer src="assets/app.js"></script>
+<script type="module" src="assets/hero3d.js"></script>
+</body>
+</html>
